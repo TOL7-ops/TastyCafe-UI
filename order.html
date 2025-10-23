@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./order.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <img src="./images/images/cutlery (1).png" alt="" class="logo-img">
+                <h1>Tasty Cafe</h1>  
+            </div>
+
+            <div class="nav-links">
+                <ul class="links-list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./categories.html">Categories</a></li>
+                    <li><a href="./order.html">Order</a></li>
+                </ul>
+            </div>
+
+            
+        </nav>
+    </header>
+
+    <section id="order">
+        <div class="form-header">
+                <img src="./images/images/bag.png" alt="">
+                <h2>Place Your Order</h2>
+                 <P>Fill in your details and we'll deliver to your doorstep     </P>
+            </div>
+        <div class="form">
+
+            <form action="#">
+                <div class="full-field">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+
+                <div class="half-field">
+               <div class="input-group">
+              <label for="email">Email</label>
+             <input type="email" id="email" name="email" required placeholder="johndoe@example.com">
+              </div>
+
+            <div class="input-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required placeholder="+1234567890">
+         </div>
+         </div>
+
+                
+
+                <div class="full-field">
+                    <label for="address">Delivery Address</label>
+                <input type="text" id="address" name="address" required placeholder="123 Main St, City, Country">
+                </div>
+
+
+                <div class="half-field">
+                <div class="input-group">
+                <label for="product">Food Item</label>
+                 <select name="product" id="product" required>
+                    <option value="select" class="test">Select a food item</option>
+               <option value="tacos">Gourmet Tacos</option>
+                <option value="pizza">Classic Pizza</option>
+               <option value="pasta">Creamy Pasta</option>
+                <option value="steak">Grilled Steak</option>
+                <option value="salad">Fresh Salad</option>
+              <option value="cake">Chocolate Cake</option>  
+                </select>
+              </div>
+
+               <div class="input-group">
+               <label for="quantity">Quantity</label>
+               <select name="quantity" id="quantity" required>
+                <option value="select" class="test">Select quantity</option>
+               <option value="1">1</option>
+                 <option value="2">2</option>
+               <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+             </select>
+            </div>
+          </div>
+
+            
+                <!-- <input type="number" id="quantity" name="quantity" min="1" max="10" required> -->
+
+                <label for="instructions">Specials Instructions(optional)</label>
+                <input type="text" id="instructions" name="instructions" placeholder="Any dietary requirements or special requests">
+
+                <button type="submit">Place Order</button>
+            </form>
+
+
+
+
+        </div>
+    
+
+    </section>
+
+
+     <section id="footer">
+        <div class="footer-container">
+            <div class="social-items">
+                <div class="social-item">
+                    <a href=""><img src="./images/images/facebook (1).png" alt=""></a>
+
+                </div>
+
+                 <div class="social-item">
+                    <a href=""><img src="./images/images/photo.png" alt=""></a>
+
+                </div>
+
+                 <div class="social-item">
+                    <a href=""><img src="./images/images/social (2).png" alt=""></a>
+
+                </div>
+
+                 <div class="social-item">
+                    <a href=""><img src="./images/images/email (1).png" alt=""></a>
+
+                </div>
+
+            </div>
+
+            <p>Copy &copy; 2025 Tasty Cafe. All Right Reserved.</p>
+
+        </div>
+
+    </section>
+</body>
+</html>
