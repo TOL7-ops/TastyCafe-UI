@@ -504,7 +504,7 @@ button:hover {
   }
 
   #footer .footer-container .social-items {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
   }
 
