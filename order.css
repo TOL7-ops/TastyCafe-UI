@@ -518,6 +518,7 @@ button:hover {
     height: 21px;
     cursor: pointer;
     z-index: 1101;
+    margin-right: 13px;
   }
   .hamburger span {
     height: 3px;
